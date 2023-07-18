@@ -27,7 +27,5 @@ public class Util {
         }
 
     }
-    Configuration conf = new Configuration().addAnnotatedClass(User.class);
-    SessionFactory sf = conf.buildSessionFactory();
-    Session session = sf.getCurrentSession();
+
 }
