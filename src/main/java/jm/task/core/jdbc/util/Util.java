@@ -27,10 +27,5 @@ public class Util {
         }
 
     }
-    public static SessionFactory getSF() {
-        Configuration conf = new Configuration().addAnnotatedClass(User.class);
-        SessionFactory sf = conf.buildSessionFactory();
-        Session session = sf.getCurrentSession();
-        return sf;
-    }
+
 }
