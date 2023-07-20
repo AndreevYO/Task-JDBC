@@ -14,7 +14,7 @@ public class Main {
         // реализуйте алгоритм здесь
         UserServiceImpl usi = new UserServiceImpl();
 //        usi.createUsersTable();
-//
+
 //        usi.saveUser("Vova","Korova", (byte) 13);
 //        usi.saveUser("Vova1","Korova1", (byte) 14);
 //        usi.saveUser("Vova2","Korova2", (byte) 15);
@@ -26,5 +26,7 @@ public class Main {
 //
 //        usi.cleanUsersTable();
         usi.dropUsersTable();
+
+
     }
 }
