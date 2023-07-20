@@ -15,32 +15,32 @@ public class UserServiceImpl implements UserService {
 
 
     public void createUsersTable() {
-//        us.createUsersTable();
-        ush.createUsersTable();
+        us.createUsersTable();
+//        ush.createUsersTable();
     }
 
     public void dropUsersTable() {
-//        us.dropUsersTable();
-        ush.dropUsersTable();
+        us.dropUsersTable();
+//        ush.dropUsersTable();
     }
 
     public void saveUser(String name, String lastName, byte age) {
-//        us.saveUser(name,lastName,age);
-        ush.saveUser(name,lastName,age);
+        us.saveUser(name,lastName,age);
+//        ush.saveUser(name,lastName,age);
     }
 
     public void removeUserById(long id) {
-//        us.removeUserById(id);
-        ush.removeUserById(id);
+        us.removeUserById(id);
+//        ush.removeUserById(id);
     }
 
     public List<User> getAllUsers() {
-//        return us.getAllUsers();
-        return ush.getAllUsers();
+        return us.getAllUsers();
+//        return ush.getAllUsers();
     }
 
     public void cleanUsersTable() {
-//        us.cleanUsersTable();
-        ush.cleanUsersTable();
+        us.cleanUsersTable();
+//        ush.cleanUsersTable();
     }
 }
